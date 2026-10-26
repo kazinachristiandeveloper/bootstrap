@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+</head>
+<body>
+    <h1 class="text-center"> Bootstrap Grid System</h1>
+
+    <!-- It uses 12 individual columns which when combined together they form a given section of website. Note, columns can not exist on thin air they require a row to exist on therefore what we start with is defining the row of the column -->
+     <div class="row"> 
+        <div class="col-md-4 bg-danger">1</div>
+        <div class="col-md-4 bg-info">2</div>
+        <div class="col-md-4 bg-primary">3</div>
+     </div> <br>
+
+     <!-- create a section with four columns and give them a different bg colors -->
+      <div class="row">
+        <div class="col-md-3 bg-danger">1</div>
+        <div class="col-md-3 bg-info">2</div>
+        <div class="col-md-3 bg-primary">3</div>
+        <div class="col-md-3 bg-secondary">4</div>
+      </div>
+      <br>
+
+      <!-- creaeta a section with fivr unequal columns -->
+        <div class="row">
+        <div class="col-md-4 bg-danger">1</div>
+        <div class="col-md-3 bg-info">2</div>
+        <div class="col-md-2 bg-primary">3</div>
+        <div class="col-md-1 bg-secondary">4</div>
+        <div class="col-md-2 bg-success">5</div>
+      </div> <br>
+
+      <!-- Createa a section with two equal columns -->
+       <div class="row">
+        <div class="col-md-6">
+            <h1 class="text-center">Championship</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste rem accusamus cupiditate, veniam adipisci labore saepe necessitatibus dolores illo vero officia veritatis fugit esse possimus!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique omnis et quibusdam. Odit, saepe tempora. Earum vel, culpa eaque enim quas recusandae quasi provident eius.</p>
+        </div>
+        <div class="col-md-6">
+            <h1 class="text-center">Winners</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, accusantium aperiam facere rem repellendus reiciendis totam inventore! Unde, suscipit corrupti!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vero labore fugit pariatur commodi velit iste illum voluptates debitis saepe!</p>
+        </div>
+       </div>
+       <br>
+
+       <!-- create two partitions/columns one with 8 and another with 4 -->
+        <div class="row">
+            <div class="col-md-8">
+                <img src="images/bikeriding.jpg" alt="" width="100%" height="350px">
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Runners up</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse nulla ea voluptates reiciendis soluta, delectus beatae labore aperiam sint quos!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod, saepe deleniti sit corrupti velit cumque aperiam asperiores? Quos, quae.</p>
+            </div>
+        </div> <br>
+        <div class="row">
+    <div class="col-md-4">
+        <h3>First Place</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Second Place</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="col-md-4">
+        <h3>Third Place</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-md-3">
+        <h3>Politics</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn btn-danger">Read more</button>
+    </div>
+
+    <div class="col-md-3">
+        <h3>Economics</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn btn-danger">Read more</button>
+    </div>
+
+    <div class="col-md-3">
+        <h3>Sports</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn btn-danger">Read more</button>
+    </div>
+
+    <div class="col-md-3">
+        <h3>News</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn btn-danger">Read more</button>
+    </div>
+</div>
+<br>
+
+<div class="container-fluid bg-dark text-white py-5">
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <h4>About Us.</h4>
+            <hr>
+            <p>
+                Welcome to Modcom Institute of Technology,
+                a leading institution dedicated to empowering
+                Africa's next generation of tech innovators.
+            </p>
+        </div>
+
+        <div class="col-md-3">
+            <h4>Quick Menus</h4>
+            <hr>
+            <p><a href="#" class="text-white text-decoration-none">Home</a></p>
+            <p><a href="#" class="text-white text-decoration-none">About Us</a></p>
+            <p><a href="#" class="text-white text-decoration-none">Courses</a></p>
+            <p><a href="#" class="text-white text-decoration-none">Contact</a></p>
+        </div>
+
+        <div class="col-md-3">
+            <h4>Twitter</h4>
+            <hr>
+            <p>Tweets by ModcomKenya</p>
+        </div>
+
+        <div class="col-md-3">
+            <h4>Contact Us</h4>
+            <hr>
+            <p> +254 722 290 410</p>
+            <p>info@modcom.co.ke</p>
+            <p>
+             2nd Floor, Haven Court,
+                Opposite Lion Place, Along Waiyaki Way,
+                Westlands
+            </p>
+        </div>
+
+    </div>
+
+</div>
++254 722 290
+</body>
+</html>
